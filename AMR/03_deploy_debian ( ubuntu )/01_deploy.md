@@ -1,0 +1,2 @@
+- ubuntu22.04 + ros2 humble + envrionments, lib များကို disk clone ရိုက်ပါ။
+- debian ros2 workspace များထည့်ပါ။

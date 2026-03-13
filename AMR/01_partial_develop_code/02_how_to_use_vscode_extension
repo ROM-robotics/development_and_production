@@ -1,0 +1,3 @@
+- vscode extensions မှာ Robot Code Sync ကို ရှာပြီး setting တွင် source , destination များမှန်/ မမှန်စစ်ပါ။
+- robot host ရဲ့ ip နဲ့ password ထည့်ပါ။
+- gui app အတွက် app လမ်းကြောင်းကို စစ်ဆေးပါ။ /home/mr_robot/Desktop/Git/rom_robotics/data/app/rom_dynamics_multi_robots_gui-linux-linux-v0.0.7.AppImage
