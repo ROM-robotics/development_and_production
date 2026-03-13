@@ -7,6 +7,10 @@
 
 
 ### requirements install
-- gdown install မလုပ်ရသေးပါက ```bash pip install gdown ``` လုပ်ရန်
-- ```bash echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc``` ~/.bashrc တွင်ရေးရန်
-- ```bash source ~/.bashrc```
+- gdown install မလုပ်ရသေးပါက အောက်ပါ command များ run ပါ။
+
+```bash
+pip install gdown
+echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
+source ~/.bashrc
+```
