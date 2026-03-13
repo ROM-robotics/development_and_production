@@ -4,3 +4,9 @@
 - /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v?.?.?.AppImage ရှိ / မရှိ စစ်ဆေးပါ။ မရှိရင် /home/mr_robot/Desktop/Git/rom_robotics/data/app/download_apps_v1.0.5.sh ကို run ပြီး download လုပ်ပါ။
 - tag name ကို dialog box ဖြင့် ဖေါ်ပြပါ။
 - /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v1.0.5.AppImage ကို run ပါ။
+
+
+### requirements install
+- gdown install မလုပ်ရသေးပါက ```bash pip install gdown ``` လုပ်ရန်
+- ```bash echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc``` ~/.bashrc တွင်ရေးရန်
+- ```bash source ~/.bashrc```
