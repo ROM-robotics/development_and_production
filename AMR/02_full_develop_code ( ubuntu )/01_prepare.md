@@ -20,7 +20,18 @@ source ~/.bashrc
 - /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v?.?.?.AppImage ရှိ / မရှိ စစ်ဆေးပါ။ မရှိရင် /home/mr_robot/Desktop/Git/rom_robotics/data/app/download_apps_v1.0.5.sh ကို run ပြီး download လုပ်ပါ။
 - tag name ကို dialog box ဖြင့် ဖေါ်ပြပါ။
 - /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v1.0.5.AppImage ကို run ပါ။
-### Robot PC ထဲက data ထဲက ဒီ script ကို run ရန်
+### 3. Robot PC ထဲက data ထဲက ဒီ script ကို run ရန်
  ```bash
 ./copy_all_services_to_systemd.md 
+```
+### 4. Robot PC ထဲက .bashrc ထဲထည့်ရန်
+```bash
+SCRIPT_PATH="/home/mr_robot/data/systemd/.rom_environment.sh"
+
+if [[ -f "$SCRIPT_PATH" ]]; then
+    echo "Loading script: $SCRIPT_PATH"
+    source "$SCRIPT_PATH"
+else
+    echo "Warning: Script not found -> $SCRIPT_PATH"
+fi
 ```
