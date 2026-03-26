@@ -21,4 +21,6 @@ source ~/.bashrc
 - tag name ကို dialog box ဖြင့် ဖေါ်ပြပါ။
 - /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v1.0.5.AppImage ကို run ပါ။
 ### Robot PC ထဲက data ထဲက ဒီ script ကို run ရန်
- copy_all_services_to_systemd.md 
+ ```bash
+./copy_all_services_to_systemd.md 
+```
