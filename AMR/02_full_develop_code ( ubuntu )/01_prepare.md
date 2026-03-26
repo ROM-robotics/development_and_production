@@ -7,6 +7,13 @@
 
 
 ### requirements install
+
+- robotPc နှင့် Development PC မှာ sshpass install လုပ်ရန် (rsync app)
+
+```bash
+  sudo apt install sshpass
+```
+
 - gdown install မလုပ်ရသေးပါက အောက်ပါ command များ run ပါ။
 
 ```bash
