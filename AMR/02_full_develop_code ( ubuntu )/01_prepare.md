@@ -1,12 +1,4 @@
-- user name mr_robot ရှိ / မရှိ စစ်ဆေးပါ။
-- /home/mr_robot/Desktop/Git/rom_robotics သည် nothing to commit အနေအထားဖြစ် မဖြစ် စစ်ဆေးပါ။
-- အဲ့အပြင် rom_robotics ရဲ့ tag ကို စစ်ဆေးပါ။ tag namve မရှိရင် quit ပါ။
-- /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v?.?.?.AppImage ရှိ / မရှိ စစ်ဆေးပါ။ မရှိရင် /home/mr_robot/Desktop/Git/rom_robotics/data/app/download_apps_v1.0.5.sh ကို run ပြီး download လုပ်ပါ။
-- tag name ကို dialog box ဖြင့် ဖေါ်ပြပါ။
-- /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v1.0.5.AppImage ကို run ပါ။
-
-
-### requirements install
+### 1. requirements install
 
 - robotPc နှင့် Development PC မှာ sshpass install လုပ်ရန် (rsync app)
 
@@ -21,3 +13,12 @@ pip install gdown
 echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
 source ~/.bashrc
 ```
+### 2. robot သို့ source code များကူးထည့်ရန်
+- user name mr_robot ရှိ / မရှိ စစ်ဆေးပါ။
+- /home/mr_robot/Desktop/Git/rom_robotics သည် nothing to commit အနေအထားဖြစ် မဖြစ် စစ်ဆေးပါ။
+- အဲ့အပြင် rom_robotics ရဲ့ tag ကို စစ်ဆေးပါ။ tag namve မရှိရင် quit ပါ။
+- /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v?.?.?.AppImage ရှိ / မရှိ စစ်ဆေးပါ။ မရှိရင် /home/mr_robot/Desktop/Git/rom_robotics/data/app/download_apps_v1.0.5.sh ကို run ပြီး download လုပ်ပါ။
+- tag name ကို dialog box ဖြင့် ဖေါ်ပြပါ။
+- /home/mr_robot/Desktop/Git/rom_robotics/data/app/rsync_qt-linux-v1.0.5.AppImage ကို run ပါ။
+### Robot PC ထဲက data ထဲက ဒီ script ကို run ရန်
+ copy_all_services_to_systemd.md 
